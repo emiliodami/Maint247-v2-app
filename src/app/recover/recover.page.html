@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>  
+    <ion-title>{{global.name}} - Recover Password</ion-title>
+  </ion-toolbar>
+</ion-header> 
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+          <ion-label>Email: <br /></ion-label>
+          <ion-input       
+            placeholder='email' name='email' id='email' type='text' required [(ngModel)]='email' style="background-Color: '#red';" >
+          </ion-input>
+        <ion-button color="success" class="pt-xs--4" ion-button                   
+          (click)="sendEmailChangePassword()">
+          <ion-icon name="checkmark-circle" size="small"></ion-icon>
+          Send
+        </ion-button>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

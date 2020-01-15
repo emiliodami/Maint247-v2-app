@@ -1,0 +1,42 @@
+/*ion-content{
+}*/
+ion-content { 
+/*
+  --ion-background-color:rgb(0, 0, 0);
+  --color:rgb(94, 221, 235) 0%; */
+  --background: transparent;
+  --border-color: transparent;
+}
+
+.login-container {
+    border-radius: 20px;
+    opacity:0.8;
+    width: 50%;
+    text-align: center;
+    background-color: #f5f6f9;
+  }
+
+  .login-logo{
+      vertical-align: center;
+      text-align: center;
+      background-color: white;
+  }
+
+  .login-form{
+    --ion-background-color: #f5f6f9;
+      opacity: 2!important;
+  }
+
+  .redCssClassName {
+    .toast-wrapper {
+      background: red;
+      opacity: 0.8;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .toast-message {
+      font-size: 3.0rem;
+      color: white;
+    }
+  }
+
