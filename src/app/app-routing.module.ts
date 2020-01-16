@@ -29,7 +29,6 @@ const routes: Routes = [
   { path: 'contract', loadChildren: './contract/contract.module#ContractPageModule' },
   { path: 'contract-info', loadChildren: './contract-info/contract-info.module#ContractInfoPageModule' },
   { path: 'contract-details', loadChildren: './contract-details/contract-details.module#ContractDetailsPageModule' },
-  { path: 'contract-clauses', loadChildren: './contract-clauses/contract-clauses.module#ContractClausesPageModule' },
   { path: 'contract-finance', loadChildren: './contract-finance/contract-finance.module#ContractFinancePageModule' },
   { path: 'contract-date', loadChildren: './contract-date/contract-date.module#ContractDatePageModule' },
   { path: 'payments', loadChildren: './payments/payments.module#PaymentsPageModule' },

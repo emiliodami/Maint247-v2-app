@@ -35,7 +35,7 @@ export class ContractDatePage implements OnInit {
     this.contract_user_id = data.user_id;
     this.contract_number = data.number;
     this.contract_name = data.name;
-    this.date_signature = data.signture;
+    this.date_signature = data.signature;
     this.date_endcontract = data.endcontract;
     this.date_movein = data.movein;
     this.date_moveout = data.moveout;
@@ -45,7 +45,7 @@ export class ContractDatePage implements OnInit {
     this.router.navigate(['/contract/contract/contractinfo']);
   }
 
-  gosaveContract(id: any, date_signature: any, date_endcontract: any, date_movein: any, date_moveout) {
+  gosaveContract(id: any, date_signature: any, date_endcontract: any, date_movein: any, date_moveout: any) {
     this.postData = {
       id: id,
       date_signature: date_signature,
